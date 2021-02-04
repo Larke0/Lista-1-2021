@@ -1,0 +1,2 @@
+   O ponteiro é usado para caminhar na memoria, permitindo a leitura ou modificação do local da memoria que ele representa.
+   Ponteiros são principalmente usados na alocação e navegação de matrizes.
