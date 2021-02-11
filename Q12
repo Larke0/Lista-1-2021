@@ -1,1 +1,18 @@
 Ponteiro para função é uma variavel que guarda o endereço de uma função, podendo assim ser chamada pelo ponteiro
+
+
+
+#include <stdio.h>
+void funcao(int x)
+{
+    printf( "%d\n", x );
+}
+ 
+int main()
+{
+    void (*pontfunc)(int);
+    pontfunc = &funcao;
+    pontfunc(42);
+    pontfunc(11);
+    return 0;
+}
