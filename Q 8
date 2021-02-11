@@ -1,0 +1,5 @@
+
+p = mat + 1;|V
+p = mat;`   |F
+p =`mat;    |V
+x = (*mat);`|F
