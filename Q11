@@ -1,0 +1,8 @@
+aloha[2] = value;        |V
+scanf("%f", &aloha);     |F
+aloha = "value";         |F
+printf("%f", aloha);     |F
+coisas[4][4] = aloha[3]; |V
+coisas[5] = aloha;       |F
+pf = value;              |F
+pf = aloha;              |V
